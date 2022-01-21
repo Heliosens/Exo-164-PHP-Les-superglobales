@@ -7,3 +7,6 @@
  * 3. Uploadez ce projet sur votre serveur et testez !
  */
 // TODO Votre code ici
+foreach ($_SERVER as $item => $value){
+    echo $item . " : " . $value . "<br>";
+}
